@@ -4,13 +4,13 @@
 @{
     ViewData["Title"] = "Create";
 }
-<article class="quoteTable">
+<article >
     <h2>Create a New Quote</h2>
 
     
     <hr />
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-sm-6">
             <form method="post">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
@@ -39,11 +39,11 @@
                     <span asp-validation-for="Quote.price" class="text-danger"></span>
                 </div>
                 @*<div class="form-group">
-            <label asp-for="Quote.surfaceMat" class="control-label"></label>
-            <input asp-for="Quote.surfaceMat" class="form-control" />
+                    <label asp-for="Quote.surfaceMat" class="control-label"></label>
+                    <input asp-for="Quote.surfaceMat" class="form-control" />
 
-            <span asp-validation-for="Quote.surfaceMat" class="text-danger"></span>
-        </div>*@
+                    <span asp-validation-for="Quote.surfaceMat" class="text-danger"></span>
+                </div>*@
                 <div class="form-group">
                     <label asp-for="Quote.surfaceMat" class="control-label"></label>
                     <select asp-for="Quote.surfaceMat" class="form-control">
@@ -68,7 +68,7 @@
                         <option value="7 Days">7 Days</option>
                         <option value="5 Days">5 Days</option>
                         <option value="3 Days">3 Days</option>
-                        
+
                     </select>
                     <span asp-validation-for="Quote.rushOrd" class="text-danger"></span>
                 </div>
@@ -82,8 +82,11 @@
                 </div>
             </form>
         </div>
+        <div class="col-sm-6">
+            <img src="~/images/deskDimensions.png" alt="Desk with Dimensions" title="Desk with Dimensions" id="deskDimensionImg" />
+        </div>
     </div>
-    <img src="~/images/deskDimensions.png" alt="Desk with Dimensions" title="Desk with Dimensions" id="deskDimensionImg" />
+
     <div>
         <a asp-page="Index">Back to List</a>
     </div>

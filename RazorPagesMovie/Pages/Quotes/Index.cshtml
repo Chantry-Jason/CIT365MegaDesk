@@ -5,12 +5,13 @@
 @{
     ViewData["Title"] = "Index";
 }
-<article class="quoteTable">
+
+<div class="container desk-quote">
     <h2>MegaDesk Quotes</h2>
 
     @*<p>
-        <a asp-page="Create">New Quote</a>
-    </p>*@
+            <a asp-page="Create">New Quote</a>
+        </p>*@
     <form asp-page="./Index" method="get">
         <div class="form-actions no-color">
             <p>
@@ -35,7 +36,7 @@
                 <input type="submit" value="Filter" />
             </p>
         </form>*@
-    <table class="table">
+    <table class="table quote-table">
         <thead>
             <tr>
                 <th>
@@ -45,25 +46,25 @@
                 @*<th>
                         @Html.DisplayNameFor(model => model.Desk[0].name)
                     </th>*@
-                <th>
+                <th class="hide-me">
                     @Html.DisplayNameFor(model => model.Desk[0].width)
                 </th>
-                <th>
+                <th class="hide-me">
                     @Html.DisplayNameFor(model => model.Desk[0].depth)
                 </th>
-                <th>
+                <th class="hide-me">
                     @Html.DisplayNameFor(model => model.Desk[0].numDrawers)
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.Desk[0].price)
                 </th>
-                <th>
+                <th class="hide-me">
                     @Html.DisplayNameFor(model => model.Desk[0].surfaceMat)
                 </th>
-                <th>
+                <th class="hide-me">
                     @Html.DisplayNameFor(model => model.Desk[0].rushOrd)
                 </th>
-                <th>
+                <th class="hide-me">
                     <a asp-page="./Index" asp-route-sortOrder="@Model.DateSort" asp-route-SearchString="@Model.SearchString">@Html.DisplayNameFor(model => model.Desk[0].DateAdded)</a>
 
                 </th>
@@ -77,25 +78,25 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.name)
                     </td>
-                    <td>
+                    <td class="hide-me">
                         @Html.DisplayFor(modelItem => item.width)
                     </td>
-                    <td>
+                    <td class="hide-me">
                         @Html.DisplayFor(modelItem => item.depth)
                     </td>
-                    <td>
+                    <td class="hide-me">
                         @Html.DisplayFor(modelItem => item.numDrawers)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.price)
                     </td>
-                    <td>
+                    <td class="hide-me">
                         @Html.DisplayFor(modelItem => item.surfaceMat)
                     </td>
-                    <td>
+                    <td class="hide-me">
                         @Html.DisplayFor(modelItem => item.rushOrd)
                     </td>
-                    <td>
+                    <td class="hide-me">
                         @Html.DisplayFor(modelItem => item.DateAdded)
                     </td>
                     <td>
@@ -108,23 +109,24 @@
             }
         </tbody>
     </table>
-</article>
-@{
-    var prevDisabled = !Model.Desk.HasPreviousPage ? "disabled" : "";
-    var nextDisabled = !Model.Desk.HasNextPage ? "disabled" : "";
-}
 
-<a asp-page="./Index"
-   asp-route-sortOrder="@Model.CurrentSort"
-   asp-route-pageIndex="@(Model.Desk.PageIndex - 1)"
-   asp-route-currentFilter="@Model.SearchString"
-   class="btn btn-default @prevDisabled">
-    Previous
-</a>
-<a asp-page="./Index"
-   asp-route-sortOrder="@Model.CurrentSort"
-   asp-route-pageIndex="@(Model.Desk.PageIndex + 1)"
-   asp-route-currentFilter="@Model.SearchString"
-   class="btn btn-default @nextDisabled">
-    Next
-</a>
+    @{
+        var prevDisabled = !Model.Desk.HasPreviousPage ? "disabled" : "";
+        var nextDisabled = !Model.Desk.HasNextPage ? "disabled" : "";
+    }
+
+    <a asp-page="./Index"
+       asp-route-sortOrder="@Model.CurrentSort"
+       asp-route-pageIndex="@(Model.Desk.PageIndex - 1)"
+       asp-route-currentFilter="@Model.SearchString"
+       class="btn btn-default @prevDisabled">
+        Previous
+    </a>
+    <a asp-page="./Index"
+       asp-route-sortOrder="@Model.CurrentSort"
+       asp-route-pageIndex="@(Model.Desk.PageIndex + 1)"
+       asp-route-currentFilter="@Model.SearchString"
+       class="btn btn-default @nextDisabled">
+        Next
+    </a>
+</div>

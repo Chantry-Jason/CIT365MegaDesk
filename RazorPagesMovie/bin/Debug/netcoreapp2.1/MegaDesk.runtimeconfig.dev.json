@@ -1,9 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\jchantry\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\jchantry\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback",
+      "C:\\Users\\Flores Family\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Flores Family\\.nuget\\packages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
