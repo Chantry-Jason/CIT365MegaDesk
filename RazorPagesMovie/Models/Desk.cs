@@ -7,7 +7,6 @@ namespace MegaDesk.Models
 {
     public class Desk
     {
-
         public int ID { get; set; }
         [Display(Name = "Customer Name")]
         [StringLength(120, MinimumLength = 3)]
@@ -43,19 +42,16 @@ namespace MegaDesk.Models
         public DateTime DateAdded { get; set; }
 
 
-    ////enum that holds the Surface material options.
-    //public enum SurfaceMaterial
-    //{
+        ////enum that holds the Surface material options.
+        //public enum SurfaceMaterial
+        //{
 
-    //    Laminate = 1,
-    //    Oak = 2,
-    //    Rosewood = 3,
-    //    Veneer = 4,
-    //    Pine = 5
-    //};
-
-
-
+        //    Laminate = 1,
+        //    Oak = 2,
+        //    Rosewood = 3,
+        //    Veneer = 4,
+        //    Pine = 5
+        //};
 
 
     //[RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
@@ -73,5 +69,5 @@ namespace MegaDesk.Models
     //[StringLength(5)]
     //[Required]
     //public string Rating { get; set; }
-}
+    }
 }

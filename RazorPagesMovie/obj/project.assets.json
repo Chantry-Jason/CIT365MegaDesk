@@ -5452,7 +5452,7 @@
       ]
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
-      "sha512": "ab4+TZw3Sxqrr5TwrwVyABeQkhSxYMJXgG6yZw7T+r6Vz+hcOt+pK79o15ESG7kZvWAK9wRG7emnTIia5O6R1Q==",
+      "sha512": "sa/cztXesLyTgCiYuef0RK2EAImnak0w2wrjCh/YBTvbn4iV2eTy0q3F8CyUkGiaYEyxUKGVTko6+7SMRBL4Gg==",
       "type": "package",
       "path": "microsoft.aspnetcore.razor.design/2.1.2",
       "files": [
@@ -12219,23 +12219,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Flores Family\\.nuget\\packages\\": {},
+    "C:\\Users\\Brad R Allen\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Flores Family\\Source\\Repos\\CIT365MegaDesk\\RazorPagesMovie\\MegaDesk.csproj",
+      "projectUniqueName": "C:\\Users\\Brad R Allen\\Source\\Repos\\CIT365MegaDeskWeb\\RazorPagesMovie\\MegaDesk.csproj",
       "projectName": "MegaDesk",
-      "projectPath": "C:\\Users\\Flores Family\\Source\\Repos\\CIT365MegaDesk\\RazorPagesMovie\\MegaDesk.csproj",
-      "packagesPath": "C:\\Users\\Flores Family\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Flores Family\\Source\\Repos\\CIT365MegaDesk\\RazorPagesMovie\\obj\\",
+      "projectPath": "C:\\Users\\Brad R Allen\\Source\\Repos\\CIT365MegaDeskWeb\\RazorPagesMovie\\MegaDesk.csproj",
+      "packagesPath": "C:\\Users\\Brad R Allen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Brad R Allen\\Source\\Repos\\CIT365MegaDeskWeb\\RazorPagesMovie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Flores Family\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Brad R Allen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
