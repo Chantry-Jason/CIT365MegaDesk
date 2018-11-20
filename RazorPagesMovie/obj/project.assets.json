@@ -5452,7 +5452,7 @@
       ]
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
-      "sha512": "sa/cztXesLyTgCiYuef0RK2EAImnak0w2wrjCh/YBTvbn4iV2eTy0q3F8CyUkGiaYEyxUKGVTko6+7SMRBL4Gg==",
+      "sha512": "ab4+TZw3Sxqrr5TwrwVyABeQkhSxYMJXgG6yZw7T+r6Vz+hcOt+pK79o15ESG7kZvWAK9wRG7emnTIia5O6R1Q==",
       "type": "package",
       "path": "microsoft.aspnetcore.razor.design/2.1.2",
       "files": [
@@ -7465,10 +7465,11 @@
       ]
     },
     "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
       "type": "package",
       "path": "newtonsoft.json/11.0.2",
       "files": [
+        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -12219,24 +12220,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Brad R Allen\\.nuget\\packages\\": {},
+    "C:\\Users\\jchantry\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Brad R Allen\\Source\\Repos\\CIT365MegaDeskWeb\\RazorPagesMovie\\MegaDesk.csproj",
+      "projectUniqueName": "C:\\Users\\jchantry\\source\\repos\\CIT365MegaDesk\\CIT365MegaDesk\\RazorPagesMovie\\MegaDesk.csproj",
       "projectName": "MegaDesk",
-      "projectPath": "C:\\Users\\Brad R Allen\\Source\\Repos\\CIT365MegaDeskWeb\\RazorPagesMovie\\MegaDesk.csproj",
-      "packagesPath": "C:\\Users\\Brad R Allen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Brad R Allen\\Source\\Repos\\CIT365MegaDeskWeb\\RazorPagesMovie\\obj\\",
+      "projectPath": "C:\\Users\\jchantry\\source\\repos\\CIT365MegaDesk\\CIT365MegaDesk\\RazorPagesMovie\\MegaDesk.csproj",
+      "packagesPath": "C:\\Users\\jchantry\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jchantry\\source\\repos\\CIT365MegaDesk\\CIT365MegaDesk\\RazorPagesMovie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Brad R Allen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\jchantry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"

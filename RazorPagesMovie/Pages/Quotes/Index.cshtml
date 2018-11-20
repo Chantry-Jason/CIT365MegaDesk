@@ -16,7 +16,7 @@
         <div class="form-actions no-color">
             <p>
                 Find by Customer Name:
-                <input type="text" name="SearchString" value="@Model.SearchString" />
+                <input type="text" id="searchinput" name="SearchString" value="@Model.SearchString" />
                 <input type="submit" value="Search" class="btn btn-default" /> |
                 @*Find by Keyword in Notes:
                     <input type="text" name="KeySearchString" value="@Model.KeySearchString" />
@@ -39,7 +39,7 @@
     <table class="table quote-table">
         <thead>
             <tr>
-                <th>
+                <th >
                     <a asp-page="./Index" asp-route-sortOrder="@Model.QuoteSort" asp-route-SearchString="@Model.SearchString">@Html.DisplayNameFor(model => model.Desk[0].name)</a>
 
                 </th>

@@ -41,7 +41,9 @@ a:hover, a:focus {
     font-size: 1.5em;
     
 }
-
+#searchinput {
+    color: black;
+}
 .rightImage img {  
     width: 400px;
     height: 300px;
@@ -54,11 +56,11 @@ footer {
     color: white;
 }
 .quote-table a {
-    color: #391904;
+    color: peru;
 }
 
 .desk-quote {
-    background:rgba(107, 64, 44, 0.5);
+    background:rgba(0, 0, 0, 0.51);
     padding-bottom: 25px;
 }
 
